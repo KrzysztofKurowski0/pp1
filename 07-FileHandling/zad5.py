@@ -1,0 +1,10 @@
+file = open("zad5.txt","w")
+file.write("Krzysztof\n")
+file.write("Kurowski\n")
+file.write("Uniwersytet ekonomiczny w Krakowie\n")
+file.write("Informatyka stosowana \n")
+file.close()
+
+file = open("zad5.txt", "r")
+print(file.read())
+file.close()
