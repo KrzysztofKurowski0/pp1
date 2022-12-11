@@ -1,4 +1,4 @@
 file = open("sample3.txt","r")
-content=file.read()
+content=file.readlines()
 print(content)
 file.close()
