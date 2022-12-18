@@ -1,5 +1,41 @@
 from turtle import *
 import math
+
+def name():
+    #K
+    up()
+    setx(200)
+    sety(500)
+    down()
+    right(90)
+    forward(35)
+    left(180)
+    forward(17.5)
+    right(45)
+    forward(25)
+    right(180)
+    forward(25)
+    left(90)
+    forward(25)
+    #R
+    up()
+    setx(230)
+    sety(500)
+    down()
+    right(45)
+    forward(35)
+    right(180)
+    forward(17.5)
+    left(-450)
+    circle(9,180)
+    left(90)
+    forward(17.5)
+    left(30)
+    forward(22)
+
+
+name()
+
 def square(size,linecolor,fillcol,coord_x,coord_y,angle):
     color(linecolor)
     up()
