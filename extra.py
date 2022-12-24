@@ -4,8 +4,8 @@ import math
 def name():
     #K
     up()
-    setx(200)
-    sety(500)
+    setx(000)
+    sety(200)
     down()
     right(90)
     forward(35)
@@ -19,8 +19,8 @@ def name():
     forward(25)
     #R
     up()
-    setx(230)
-    sety(500)
+    setx(30)
+    sety(200)
     down()
     right(45)
     forward(35)
@@ -32,6 +32,54 @@ def name():
     forward(17.5)
     left(30)
     forward(22)
+    #Z
+    up()
+    setx(55)
+    sety(200)
+    down()
+    right(300)
+    forward(26)
+    right(130)
+    forward(45)
+    left(130)
+    forward(26)
+    #Y
+    up()
+    setx(90)
+    sety(200)
+    down()
+    right(65)
+    forward(20)
+    left(130)
+    forward(20)
+    backward(20)
+    right(155)
+    forward(18)
+    #S
+    up()
+    setx(125)
+    sety(200)
+    down()
+    left(90)
+    forward(5)
+    backward(5)
+    circle(-9,-185)
+    right(10)
+    circle(9,-250)
+    #Z
+    up()
+    setx(145)
+    sety(200)
+    down()
+    right(285)
+    forward(26)
+    right(130)
+    forward(45)
+    left(130)
+    forward(26)
+
+
+
 
 
 name()
