@@ -2,6 +2,7 @@ from turtle import *
 import math
 
 def name():
+
     speed(20)
     #K
     up()
@@ -272,7 +273,6 @@ def name():
     backward(5)
     right(180)
     circle(11.5,190)
-    speed(2)
 
     #2
     up()
@@ -303,7 +303,7 @@ def name():
 
 
 
-name()
+name() 
 
 def square(size,linecolor,fillcol,coord_x,coord_y,angle):
     color(linecolor)
