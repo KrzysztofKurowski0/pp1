@@ -1,9 +1,8 @@
 from turtle import *
 import math
 
+speed(20)
 def name():
-
-    speed(20)
     #K
     up()
     setx(385)
@@ -265,30 +264,70 @@ def name():
     right(210)
     forward(35)
 
+    #1
+    up()
+    setx(535)
+    sety(360)
+    down()
+    forward(35)
+    left(140)
+    forward(20)
 
+    #-
+    up()
+    setx(555)
+    sety(377.5)
+    down()
+    left(40)
+    right(90)
+    forward(10)
 
+    #1
+    up()
+    setx(575)
+    sety(360)
+    down()
+    right(90)
+    forward(35)
+    left(140)
+    forward(20)
 
+    #1
+    up()
+    setx(600)
+    sety(360)
+    down()
+    right(140)
+    forward(35)
+    left(140)
+    forward(20)
+
+    #1
+    up()
+    setx(625)
+    sety(360)
+    down()
+    right(140)
+    forward(35)
+    left(140)
+    forward(20)
 
     #2
     up()
-    setx(90)
-    sety(140)
+    setx(655)
+    sety(382)
     down()
-    right(450)
+    right(520)
     circle(9,220)
-    right(450)
+    right(400)
     up()
     circle(9,220)
     down()
-    right(230)
-    forward(34)
-    right(240)
+    right(235)
+    forward(27)
+    right(235)
     forward(20)
 
-
-
-
-name() 
 
 def square(size,linecolor,fillcol,coord_x,coord_y,angle):
     color(linecolor)
@@ -374,6 +413,7 @@ def rhombus(size,linecolor,fillcol,coord_x,coord_y,angle):
         else:
             forward(size)
             right(60)
+    right(240)
     end_fill()
 
 square(450,"red","black",-450,450,0)
@@ -381,6 +421,7 @@ right_triangle(300,"red","black",-450,100,0)
 trefoil(50,"red","black",0,-450,0)
 cross(80,"red","black",-450,-300,0)
 rhombus(80,"red","black",450,-450,0)
+name()
 
 done()
     
