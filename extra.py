@@ -3,6 +3,7 @@ import math
 
 speed(20)
 def name():
+    right(180)
     #K
     up()
     setx(385)
@@ -211,7 +212,7 @@ def name():
     #Group name
     #Z
     up()
-    setx(400)
+    setx(405)
     sety(360)
     down()
     right(90)
@@ -223,7 +224,7 @@ def name():
 
     #Z
     up()
-    setx(435)
+    setx(440)
     sety(360)
     down()
     forward(26)
@@ -234,7 +235,7 @@ def name():
 
     #I
     up()
-    setx(450)
+    setx(455)
     sety(360)
     down()
     right(90)
@@ -242,7 +243,7 @@ def name():
 
     #S
     up()
-    setx(475)
+    setx(480)
     sety(395)
     down()
     left(267)
@@ -254,7 +255,7 @@ def name():
     
     #N
     up()
-    setx(495)
+    setx(500)
     sety(360)
     down()
     right(192)
@@ -266,7 +267,7 @@ def name():
 
     #1
     up()
-    setx(535)
+    setx(540)
     sety(360)
     down()
     forward(35)
@@ -275,7 +276,7 @@ def name():
 
     #-
     up()
-    setx(555)
+    setx(560)
     sety(377.5)
     down()
     left(40)
@@ -284,7 +285,7 @@ def name():
 
     #1
     up()
-    setx(575)
+    setx(580)
     sety(360)
     down()
     right(90)
@@ -294,7 +295,7 @@ def name():
 
     #1
     up()
-    setx(600)
+    setx(605)
     sety(360)
     down()
     right(140)
@@ -304,7 +305,7 @@ def name():
 
     #1
     up()
-    setx(625)
+    setx(630)
     sety(360)
     down()
     right(140)
@@ -314,7 +315,7 @@ def name():
 
     #2
     up()
-    setx(655)
+    setx(660)
     sety(382)
     down()
     right(520)
@@ -374,7 +375,6 @@ def trefoil(size,linecolor,fillcol,coord_x,coord_y,angle):
     for i in range(3):
         circle(size,240)
         right(120)
-    right(30)
     end_fill()
 
 
@@ -404,7 +404,6 @@ def rhombus(size,linecolor,fillcol,coord_x,coord_y,angle):
     sety(coord_y)
     down()
     begin_fill()
-    right(30)
     right(angle)
     for i in range (1,5):
         if i%2!=0:
@@ -413,14 +412,35 @@ def rhombus(size,linecolor,fillcol,coord_x,coord_y,angle):
         else:
             forward(size)
             right(60)
-    right(240)
     end_fill()
 
-square(450,"red","black",-450,450,0)
-right_triangle(300,"red","black",-450,100,0)
-trefoil(50,"red","black",0,-450,0)
-cross(80,"red","black",-450,-300,0)
-rhombus(80,"red","black",450,-450,0)
+square(200,"red","green",-850,425,0)
+square(150,"red","yellow",-825,100,0)
+square(100,"red","orange",-800,-150,0)
+square(50,"red","red",-775,-350,0)
+
+right_triangle(200,"red","green",-380,0,0)
+right_triangle(200,"red","yellow",-380,0,0)
+right_triangle(200,"red","orange",-380,0,0)
+right_triangle(200,"red","red",-380,0,0)
+right_triangle(200,"red","grey",-380,0,0)
+right_triangle(200,"red","black",-380,0,0)
+
+trefoil(80,"red","green",50,275,0)
+trefoil(60,"red","yellow",30,-20,0)
+trefoil(40,"red","orange",10,-220,0)
+trefoil(20,"red","red",-10,-370,0)
+
+rhombus(150,"red","green",350,200,120)
+rhombus(150,"red","green",350,200,180)
+rhombus(100,"red","red",350,-200,0)
+rhombus(100,"red","red",350,-200,180)
+
+cross(80,"red","green",680,200,60)
+cross(60,"red","yellow",690,-50,0)
+cross(40,"red","orange",700,-250,0)
+cross(20,"red","red",710,-380,0)
+
 name()
 
 done()
