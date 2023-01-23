@@ -1,0 +1,12 @@
+from Classes import Ebook
+Ebook_set = Ebook("Jan Brzechwa","O psie który jeździł koleją",120,30)
+Ebook_set.open()
+Ebook_set.status()
+Ebook_set.next_page()
+Ebook_set.next_page()
+Ebook_set.next_page()
+Ebook_set.next_page()
+Ebook_set.next_page()
+Ebook_set.status()
+Ebook_set.close()
+Ebook_set.next_page()
